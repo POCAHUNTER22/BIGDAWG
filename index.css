@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3{
+    font-family: sans-serif;
+}
+p{
+    font-family: serif;
+}
+a{
+    text-decoration: none;
+}
+.section_1{
+    background-color: white;
+    padding: 0 10%;
+}
+.section_1 nav{
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+.section_1 nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2.5em;
+}
+.section_1 nav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+.section_1 main{
+    background-image: url(./imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    padding: 3em 7em;
+    margin: 40px;
+    color: white;
+}
+.section_1 .business-lunch{
+    width: 130px;
+    height: 130px;
+    background-color: greenyellow;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.business-lunch h1{
+    font-size: 45px;
+    text-transform: capitalize;
+}
+.business-lunch p{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section_1 h2{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.section_1 main h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.section_1 main a{
+    border: none;
+    border-radius: 100px;
+    background-color: orange;
+    font-size: 30px;
+    padding: 17px 30px;
+    margin-top: 24px;
+    font-weight: bold;
+    display: block;
+    width: 30%;
+    text-transform: capitalize;
+}
+.view-our-menu {
+    margin: 8em 0;
+}
+.view-our-menu header {
+    display: flex;
+    justify-content: center;
+}
+.view-our-menu header h1 {
+    font-size: 4em;
+    text-transform: capitalize;
+}
+.view-our-menu-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+    text-align: center;
+}
+.view_img {
+    width: 100%;
+    height: 300px;
+    border-radius: 2em;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s ease-in;
+}
+.view_img:hover {
+    transform: scale(1.3, 1.3);
+}
+.view_img_1 {
+    background-image: url(./imgs/alex-munsell-Yr4n8O_3UPc-unsplash.jpg);
+}
+.view_img_2 {
+    background-image: url(./imgs/jimmy-dean-Yn0l7uwBrpw-unsplash.jpg);
+}
+.view_img_3 {
+    background-image: url(./imgs/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg);
+}
+.view_img_4 {
+    background-image: url(./imgs/victoria-shes-UC0HZdUitWY-unsplash.jpg);
+}
+.view-our-menu-list section {
+    width: 23%;
+}
+.view-our-menu-list h2 {
+    text-transform: uppercase;
+    margin: 1em;
+    font-size: 2em;
+}
+.view-our-menu-list a {
+    font-size: 1em;
+    text-transform: uppercase;
+    background-color: orange;
+    color: #fff;
+    padding: 0.7em 2em;
+    border-radius: 100px;
+    transition: 0.3s ease-in;
+}
+.view-our-menu-list a:hover{
+    background-color: orange;
+}
+.keep_up_to_date{
+    background-color: orange;
+    padding: 30px 0;
+}
+.keep_up_to_date_inner {
+    background-color: #ffffff;
+    padding: 3em 0;
+    width:70%;
+    margin: auto;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+}
+.keep_up_to_date_inner h1{
+    font-size: 3em;
+}
+.keep_up_to_date_inner h2{
+    font-size: 1em;
+    color: orangered;
+}
+.our_resturant {
+    height: 700px;
+    background-image:linear-gradient(to right,black,rgba(54, 26, 26, 0.192)), url(./imgs/victoria-shes-UC0HZdUitWY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 5em 0;
+    color: #fff;
+    padding: 5em 10em;
+}
+.our_resturant h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.our_resturant h1 {
+    font-size: 5em;
+    margin: 1em 0;
+}
+.our_resturant a {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    background-color: orange;
+    color: #fff;
+    padding: 0.7em 2em;
+    border-radius: 100px;
+    transition: o.3s ease-in;
+}
+.check_our_blog header {
+    display: flex;
+    justify-content: center;
+}
+.check_our_blog h3 {
+    font-size: 2em;
+}
+.check_our_blog-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0;
+}
+.check_our_blog-inner section {
+    background-color: white;
+    padding: 2em;
+    border-radius: 7px;
+    box-shadow: 0 2px 1em rgba(0, 0, 0, 0.117);
+    text-transform: capitalize;
+}
+.check_our_blog-inner section :not(a) {
+    text-align: center;
+}
+.check_our_blog-inner section h3 {
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+.check_our_blog-inner section p {
+    width: 80%;
+    margin: 45px auto;
+    font-size: 1.1em;
+    color: grey;
+}
+.check_our_blog-inner section a:nth-child(4) {
+    background-color: orange;
+    font-size: 1.2em;
+    padding: 0.8em 2.2em;
+    border-radius: 100px;
+}
+footer{
+    color: #fff;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 10%;
+    margin-top: 3.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+footer div h2 {
+    margin-bottom: 10px;
+}
+footer div a{
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer div a:hover{
+    text-decoration: underline;
+}
+.bars{
+    display: none;
+}
+
+@media (max-width:895px) {
+    .view-our-menu-list {
+        flex-direction: column;
+    }
+    .view-our-menu-list section {
+        width: 100%;
+        margin-bottom: 2.3em;
+    }
+    .section_1 main a {
+        width: 100%;
+    }
+}
+@media(max-width:945px) {
+    .check_our_blog-inner{
+        flex-direction: column;
+    }
+}
+@media(max-width:849px){
+    .section_1 main .business-lunch h1{
+        font-size: 2.1em; 
+    }
+    .section_1 main h1{
+        font-size: 2em;
+    }
+    .section_1 h2{
+        font-size: 1em;
+    }
+    .section_1 main a{
+        font-size: 1.4em;
+    }
+    .keep_up_to_date_inner h1{
+        font-size: 1.5em;
+    }
+    .keep_up_to_date_inner h2{
+        font-size: 1em;
+    }
+    .our_resturant h1{
+        font-size: 2em;
+        text-transform: capitalize;
+    }
+    .our_resturant h3{
+        font-size: 1em;
+    }
+    .our_resturant{
+        height: 500px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .section_1 main{
+        padding: 2em 4em;
+    }
+    .view-our-menu header h1{
+        font-size: 2em;
+    }
+    .bars{
+        display: block !important;
+        position: absolute;
+        top: 20px;
+        right: 0;
+        font-size: 2.5em;
+        padding-right: 1.5em;
+        background-color: #000;
+        border-radius: 5px;
+        box-shadow: 0 0 10px black;
+        color: rgb(4, 0, 7);
+    }
+    nav ul{
+        width: 100%;
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+        padding: 3em 0;
+        top: 70px;
+        left: 100%;
+        height: 100vh;
+        transition: 0.3s ease;
+        color: lightblue;
+    }
+
+    .active{
+        left: 0;
+    }
+}
